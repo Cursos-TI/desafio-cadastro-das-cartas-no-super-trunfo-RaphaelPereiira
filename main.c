@@ -1,8 +1,6 @@
 #include <stdio.h>
-#include <locale.h>
 
 int main() {
-    setlocale(LC_ALL, "Portuguese"); // Permite exibir acentos corretamente
 
     // Declaração de variáveis para a primeira carta
     char estado1, codigo1[4], nomeCidade1[50];
